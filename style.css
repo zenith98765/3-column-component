@@ -1,0 +1,152 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.cont{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adbox{
+  width: 702px;
+  height: 370px;
+  background-color: maroon;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 40px;
+
+}
+
+.com{
+  padding: 20px 20px;
+  padding-top: 30px;
+  width: 33.33%;
+
+}
+
+.sed{
+  
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.suv{
+  
+  background-color: hsl(184, 100%, 22%);
+}
+
+.lux{
+  
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.hd{
+  font-family: Big Shoulders Display;
+  color: hsl(0, 0%, 95%);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 16px;
+}
+
+.sbhd{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: Lexend Deca;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 26px;
+  line-height: 1.5;
+  padding-right: 20px;
+}
+
+.bt1{color: hsl(31, 77%, 52%);} .bt2{color: hsl(184, 100%, 22%);} .bt3{color: hsl(179, 100%, 13%);}
+
+.bttn{
+  border-radius: 20px;
+  border: none;
+  width: 100px;
+  height: 38px;
+  background-color: hsl(0, 0%, 95%);
+  font-family: Lexend Deca;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-top: 60px;
+
+}
+
+.bttn:hover{
+  border: 1px solid hsl(0, 0%, 95%);
+  background-color: hsla(0, 0%, 0%, 0); 
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+
+.attribution { font-size: 9px; 
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width: 655px){
+
+  .cont{align-items: start; height: 100%;  padding: 20px 0;}
+
+  .adbox{
+    width: 230px;
+    height: 100%;
+    background-color: maroon;
+    border-radius: 10px;
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    transition: width 600ms ease-out, height 600ms ease-out;
+    
+  
+  }
+
+  .com{
+    width: 100%;
+
+  }
+
+  .sed{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;  
+
+  }
+
+  .lux{
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;   
+    border-bottom-right-radius: 10px;
+  }
+
+  .bttn{
+    margin-top: 30px;
+  }
+
+  .attribution {
+  display: none;
+    
+  }
+  
+
+}
+
+
+
+
+
